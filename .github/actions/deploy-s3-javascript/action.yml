@@ -1,1 +1,5 @@
 name: "Upload to s3"
+description: "javascript action to upload static site to s3"
+runs:
+  using: "node16"
+  main: main.js
